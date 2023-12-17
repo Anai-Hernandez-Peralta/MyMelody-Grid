@@ -725,3 +725,21 @@ body {
     grid-column: 6 / 7;
     grid-row: 26 / 29;
 }
+
+@media (max-width: 930px) {
+    .title {
+        position: static;
+        text-align: center;
+    }
+
+    .title p{
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .container {
+        height: 70vh;
+        width: 377px;
+        margin: 25px auto 0 auto;
+    }
+}
